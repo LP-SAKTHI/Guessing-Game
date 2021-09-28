@@ -1,2 +1,2 @@
 # Guessing-Game
-# [LIVE DEMO](https://github.com/LP-SAKTHI/Guessing-Game.git)
+# [LIVE DEMO]( https://lp-sakthi.github.io/Guessing-Game/)
