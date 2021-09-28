@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing-Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+    <div class="heading"><h1>GUESSING~GAME</h1></div>
+    <div class="warn"><h3>ENTER A NUMBER BETWEEN 1 TO 50..<br> YOU HAVE 3 CHANCES 3️⃣ </h3></div>
+    <div class="number">
+        <input type="number" name="number" id="number" max="50" min="1" placeholder="1-50"> 
+    </div>
+    <div class="buttons">
+        <button class="submit" onclick="gg()">CHECK ☑ </button>
+        <button class="reset" onclick="reset()">RESET 🔂</button>
+    </div>
+    
+    <div class="result">LET'S PLAY </div>
+    <div class="history">YOUR GUESS 👇 </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+*{
+    margin:0.7rem 0.5rem;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(just4.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+#wrapper{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    font-family: cursive;
+    color:rgb(223, 215, 215);
+    text-shadow: 2px 2px 5px rgb(233, 16, 16), 2px 2px 5px greenyellow;
+}
+.warn
+{
+    color:rgb(223, 215, 215);
+}
+#number
+{
+    border-radius: 30px;;
+    padding:25px;
+    background-color: rgb(168, 157, 157);
+    color: whitesmoke;
+    border: 1px solid black;
+    
+}
+
+.submit
+{
+    border-radius: 30px;
+    background-color: grey;
+    padding:20px;
+    font-family: cursive;
+    cursor: pointer;
+    border: 1px solid black;
+    color: whitesmoke;
+}
+
+.submit:hover{
+    background-color: rgb(88, 78, 78);
+    box-shadow: 2px 2px 3px black, 2px 2px 3px greenyellow;
+}
+
+.reset:hover{
+    background-color: rgb(88, 78, 78);
+    box-shadow: 2px 2px 3px black, 2px 2px 3px greenyellow;
+}
+
+#number:hover{
+    background-color: rgb(88, 78, 78);
+    box-shadow: 2px 2px 3px black, 2px 2px 3px greenyellow;
+}
+.reset
+{
+    border-radius: 30px;
+    background-color: grey;
+    padding:20px;
+    font-family: cursive;
+    cursor: pointer;
+    color: whitesmoke;
+    border: 1px solid black;
+}
+
+.result
+{
+    color:rgb(223, 215, 215);
+    margin:3px;
+}
+
+.history{
+    color:rgb(223, 215, 215);
+    
+}
+
