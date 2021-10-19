@@ -1,11 +1,13 @@
 //declaration..
 
 const randomNumber = Math.floor(Math.random()*50+1);
+
 let chances = 3;
 isWin = false;
 //declaration..
 
 //==================imports===================
+
 const userValue =document.querySelector("#number");
 const sumbitDiv = document.querySelector(".submit");
 const resetDiv = document.querySelector(".reset");
@@ -14,7 +16,8 @@ const hisDiv = document.querySelector(".history");
 
 //==================imports===================
 
-//main=====
+//====main=====
+
 function gg(){
     const user = userValue.value;
     //console.log(user);
@@ -56,7 +59,6 @@ function gg(){
     
     }
 }
-
 function reset (){
     if(!chances || isWin){
         location.reload();
@@ -67,4 +69,4 @@ function reset (){
     }
 }
 
-//main=====
+//====main=====
